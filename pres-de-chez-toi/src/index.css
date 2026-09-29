@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orange: #F26419;
+  --color-orange-hover: #D14E0C;
+  --color-orange-pale: #FFF1E8;
+  --color-gris-fond: #F7F7F5;
+  --color-gris-anthracite: #1C1B1A;
+  --color-gris-moyen: #6B6B68;
+  --color-gris-clair: #E4E3E0;
+  --color-vert: #2E7D5B;
+  --color-rouge: #C0392B;
+  --font-sans: 'Inter', 'Manrope', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
